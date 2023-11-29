@@ -13,3 +13,9 @@ The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
 Power to you,
+
+
+ps. as an option pass TOKEN as env var during docker run like:
+```
+sudo snap run docker run --name apbot --rm -v bot:/usr/src/apbot/ -e TOKEN=6092_rely_on_ssh_encryption_n_clear_git_llHo apbot01
+```
